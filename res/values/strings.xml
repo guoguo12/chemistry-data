@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Chemistry Data</string>
+    <string name="about_menuitem_text">About Chemistry Data</string>
+    <string name="empty_data_text"></string>
+    <string name="input_hint">Symbol, name, or atomic number.</string>
+    <string name="button_name">Find Element</string>
+    <string name="data_file">data.csv</string>
+    <string name="show_all_menuitem_text">View All Elements</string>
+    <string name="load_error">Data load failed. Please restart the application.</string>
+    <string name="element_not_found">Element not found.</string>
+    <string name="about_text"><b>Chemistry Data</b> was created by <b>Allen Guo</b>, and uses chemical element data obtained from Wikipedia (available under the CC-BY-SA 3.0 Unported License).\n\nThe accuracy of the data provided by Chemistry Data is not guaranteed by the author.\n\nThe source code of Chemistry Data is released under the MIT License.</string>
+    <string name="back">Back</string>
+    <string name="back_menuitem_text">Back</string>
+    <string name="details_text">Weight is given in g/mol. Density is given in g/cm^3. Melt and Boil (melting and boiling points) are given in K. Heat (specific heat capacity) is given in J/(K*g). Neg is electronegativity on the Pauling scale. Abundance (in the Earth\'s crust) is given in mg/kg.</string>
+
+</resources>

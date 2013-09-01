@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/about_menuitem"
+        android:orderInCategory="200"
+        android:showAsAction="never"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="@string/about_menuitem_text"/>
+    
+    <item
+        android:id="@+id/show_all_menuitem"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="@string/show_all_menuitem_text"/>
+    
+</menu>
