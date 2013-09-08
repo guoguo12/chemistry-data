@@ -8,9 +8,7 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-
 import org.sparkfiregames.chemdata.R;
-
 import android.content.Context;
 
 /**

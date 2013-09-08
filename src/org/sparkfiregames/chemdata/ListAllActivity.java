@@ -26,7 +26,7 @@ public class ListAllActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		DataManager dataManager = (DataManager) getIntent().getSerializableExtra("org.sparkfiregames.chemdata.DataManager");
+		DataManager dataManager = ((ChemistryDataApplication) getApplication()).getData();
 		setContentView(R.layout.list_all);
 		ElementDataArrayAdapter adapter = new ElementDataArrayAdapter(this, R.layout.list_all, dataManager.getData());
 		ListView list = (ListView) findViewById(R.id.list_listview);

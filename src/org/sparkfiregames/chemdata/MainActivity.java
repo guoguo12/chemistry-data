@@ -42,6 +42,7 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 		instance = this;
 		dataManager = new DataManager();
+		((ChemistryDataApplication) getApplication()).setData(dataManager);
 		try {
 			dataManager.load(getApplicationContext());
 		} catch (IOException e) {
@@ -79,7 +80,6 @@ public class MainActivity extends Activity {
 				return true;
 			case R.id.show_all_menuitem:
 				intent = new Intent(this, ListAllActivity.class);
-				intent.putExtra("org.sparkfiregames.chemdata.DataManager", dataManager);
 				startActivityForResult(intent, 2);
 				return true;
 		}
