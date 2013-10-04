@@ -28,10 +28,9 @@ Chemistry Data requires neither internet access nor any other Android permission
 Installation Instructions
 -------------------------
 
-Chemistry Data will be published to Google Play once the author
-acquires sufficient funding to establish a personal developer account.
+Chemistry Data can be downloaded and installed via Google Play here: https://play.google.com/store/apps/details?id=org.sparkfiregames.chemdata.
 
-Until then, the current APK release can be downloaded using GitHub's [Releases](https://github.com/guoguo12/chemistry-data/releases) feature and installed using
+The current APK release can also be downloaded using GitHub's [Releases](https://github.com/guoguo12/chemistry-data/releases) feature and installed using
 the [Android SDK](https://developer.android.com/sdk/index.html)'s [adb](https://developer.android.com/tools/help/adb.html) tool.
 
 Contribute
