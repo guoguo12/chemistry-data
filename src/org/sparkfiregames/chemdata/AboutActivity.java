@@ -38,7 +38,7 @@ public class AboutActivity extends Activity {
 			return getPackageManager().getPackageInfo(getPackageName(), 0).versionName;
 		} catch (NameNotFoundException e) {
 			e.printStackTrace();
-			return null;
+			return "";
 		}
 	}
 	
