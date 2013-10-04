@@ -149,7 +149,7 @@ public class DataManager implements Serializable {
 				fields.put(key, value);
 			}
 			// Replace empty group values
-			if (fields.get("gr").isEmpty()) {
+			if (fields.get("gr").equals("")) {
 				fields.put("gr", "n/a");
 			}
 		}
